@@ -1,0 +1,6 @@
+---
+- name: Celebrate Diwali with Docker on AWS
+  hosts: diwali
+  become: yes
+  roles:
+    - diwali_docker
